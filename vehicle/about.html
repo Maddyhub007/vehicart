@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 0;
+        }
+        .hero img {
+            max-width: 100%;
+            height: auto;
+            background-size: contain;
+        }
+        .section-title {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .about-content {
+            text-align: center;
+        }
+        .about-content h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+        .about-content p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .features {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+        }
+        .feature-box {
+            width: 23%;
+            height: 400px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin-right: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+        .feature-box:hover {
+            background-color: #fd4545;
+            color: white;
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .feature-box h3 {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+        .feature-box p {
+            font-size: 20px;
+        }
+        .hero {
+    position: relative;
+}
+
+.about-content {
+    background: url('cars.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+    color: white;
+    position: relative;
+    z-index: 1;
+    height: 400px;
+    text-align: center;
+}
+
+.about-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+    z-index: -1;
+}
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="hero">
+            <h1 class="section-title">Who We Are</h1>
+            <div class="about-content">
+                <h2>Pioneering Premium Car Rentals</h2>
+                <p>At Rent-A-Ride, we're not just a car rental company – we're pioneers in redefining premium travel experiences. Since our inception over a decade ago, our mission has always been clear: to provide the finest vehicles and unparalleled service to ensure every journey is extraordinary.</p>
+                <p>Our journey began with a commitment to delivering quality, luxury, and a wide range of meticulously maintained vehicles. Whether you're looking for sleek sedans or rugged SUVs, we ensure that you always travel in style, comfort, and safety.</p>
+            </div>
+        </div>
+
+        <div class="features">
+            <div class="feature-box">
+                <h3>Quality & Variety</h3>
+                <p>Our fleet offers a diverse range of meticulously maintained vehicles, from elegant sedans to powerful SUVs. Every vehicle is carefully maintained to the highest standards, guaranteeing not just style, but also performance and reliability.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Affordable Rates</h3>
+                <p>We believe luxury should be accessible to everyone. That's why we offer competitive pricing without hidden fees, allowing you to enjoy the premium experience without breaking the bank.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Easy Booking</h3>
+                <p>Reserving your vehicle is simple and hassle-free with our user-friendly online platform. In just a few clicks, you can select your preferred vehicle and hit the road, ensuring a seamless experience from start to finish.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Customer Satisfaction</h3>
+                <p>Our customers trust us for our exceptional service and fleet quality. From your first inquiry to your return journey, we're dedicated to providing top-notch service. Our support team is available 24/7 to ensure your satisfaction.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
