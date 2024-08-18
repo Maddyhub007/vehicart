@@ -190,46 +190,6 @@ button:hover{
     border-radius: 5px;
 }
 
-/* Featured Vehicles Section */
-.vehicles-section {
-    padding: 50px 20px;
-    text-align: center;
-    background-color: #fff;
-}
-
-.vehicles-section h2 {
-    font-size: 36px;
-    margin-bottom: 30px;
-}
-
-.vehicle-cards {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.vehicle-card {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 300px;
-}
-
-.vehicle-card img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.vehicle-card h3 {
-    margin: 10px 0;
-}
-
-.vehicle-card p {
-    margin: 10px 0;
-}
 
 /* Footer */
 footer {
@@ -249,4 +209,11 @@ footer {
 .social-icons li a {
     color: white;
     text-decoration: none;
+}
+
+.img-container
+{
+    flex: 1;
+    background: url('/all1.jpg') no-repeat center center;
+    background-size: cover;
 }
